@@ -1,6 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    color: black;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: blue;
+}
+
 h2 {
     font-family: 'Rancho', cursive;
-    font-size: 200%;
+    /*font-style: normal; */
+    font-size: 2.5em;
     color: blue;
     text-align: center;
 }
+
+small {
+    color: blue;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    /*display: none; */
+}
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*.clearfix {
+    overflow: auto;
+}*/
