@@ -1,7 +1,17 @@
-body {
-    
-    font-family: 'Trochut', cursive;
-    color: blue;
-    font-size: 2em;
-    box-sizing: border-box;
+header {
+    height: 800px;
+    background-color: blue;
+}
+
+header, main, section, nav {
+    display: block;
+}
+
+.section-padding {
+    padding: 0px 0px;
+    margin-top: 10px;
+}
+
+.bg-gray {
+    background: #fff;
 }
