@@ -2,21 +2,26 @@
 
 <html>
     <head>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Brian Gaturu kamau">
         <meta name="description" content="BreGat">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+        <!--Google fonts--> 
             <link href="https://fonts.googleapis.com/css?family=Trochut&display=swap" rel="stylesheet">
+            <!-- External stylesheet-->
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        <!--Google icons-->
+        
+
         <title>BreGat</title>
 
     </head>
     <body>
 
 <header>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,6 +58,8 @@
             </nav>
       </header>
 
+
+     
       <section class="services-v bg-gray section-padding">
         <div class="container">
           <div class="row" style="height: 1240;">
@@ -62,10 +69,10 @@
 
             </div>
 
-            <div class="col-lg-4  col-md-6">
+            <div class="col-lg-4  col-md-6 card" >
               <div class="serv-item mb-30 serv1">
                 <span class="icon">
-                    <img src="https://img.icons8.com/wired/64/000000/google-code.png">
+                    <img src="https://img.icons8.com/wired/64/000000/google-code.png" alt="">
                 </span>
                 <h6>Creative Design Services</h6>
                 <p>sjdksd sidsubd sdskd sdisoidn sdsion sdishodhi sidhaodna sdido asdhioaj sihdpod asdad sadhianoihsd hos oshdojsd oisdio</p>
@@ -75,10 +82,11 @@
               </div>
             </div>
 
-            <div class="col-lg-4  col-md-6">
+            <div class="col-lg-4  col-md-6 card">
                 <div class="serv-item mb-30 serv2">
-                    <img src="https://img.icons8.com/nolan/64/000000/google-code.png">
-                    <img src="" alt="">
+                  <span>
+                    <img src="https://img.icons8.com/nolan/64/000000/google-code.png" alt="">
+                    
                   </span>
                   <h6>Web Design Services</h6>
                   <p>sjdksd sidsubd sdskd sdisoidn sdsion sdishodhi sidhaodna sdido asdhioaj sihdpod asdad sadhianoihsd hos oshdojsd oisdio</p>
@@ -88,10 +96,10 @@
                 </div>
               </div>
 
-              <div class="col-lg-4  col-md-6">
+              <div class="col-lg-4  col-md-6 card" >
                   <div class="serv-item mb-30 serv3">
                     <span class="icon">
-                        <img src="https://img.icons8.com/material/64/000000/google-code.png">
+                        <img src="https://img.icons8.com/material/64/000000/google-code.png" alt="">
                     </span>
                     <h6>Web Development Services</h6>
                     <p>sjdksd sidsubd sdskd sdisoidn sdsion sdishodhi sidhaodna sdido asdhioaj sihdpod asdad sadhianoihsd hos oshdojsd oisdio</p>
@@ -101,10 +109,10 @@
                   </div>
                 </div>
 
-                <div class="col-lg-4  col-md-6">
+                <div class="col-lg-4  col-md-6 card">
                     <div class="serv-item mb-md30 serv4">
                       <span class="icon">
-                        <img src="" alt="">
+                          <img src="https://img.icons8.com/nolan/64/000000/google-blog-search.png" alt="">
                       </span>
                       <h6>Content Writing</h6>
                       <p>sjdksd sidsubd sdskd sdisoidn sdsion sdishodhi sidhaodna sdido asdhioaj sihdpod asdad sadhianoihsd hos oshdojsd oisdio</p>
@@ -114,10 +122,10 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-4  col-md-6">
+                  <div class="col-lg-4  col-md-6 card">
                       <div class="serv-item mb-sm30 serv5">
                         <span class="icon">
-                          <img src="" alt="">
+                            <img src="https://img.icons8.com/doodle/48/000000/google-mobile--v2.png" alt="">
                         </span>
                         <h6>Digital Marketing</h6>
                         <p>sjdksd sidsubd sdskd sdisoidn sdsion sdishodhi sidhaodna sdido asdhioaj sihdpod asdad sadhianoihsd hos oshdojsd oisdio</p>
@@ -127,12 +135,12 @@
                       </div>
                     </div>
 
-                    <div class="col-lg-4  col-md-6">
+                    <div class="col-lg-4  col-md-6 card">
                         <div class="serv-item serv6">
                           <span class="icon">
-                            <img src="" alt="">
+                              <img src="https://img.icons8.com/dotty/80/000000/ios-development.png" alt="">
                           </span>
-                          <h6>Industrial Training</h6>
+                          <h6>Mobile Development</h6>
                           <p>sjdksd sidsubd sdskd sdisoidn sdsion sdishodhi sidhaodna sdido asdhioaj sihdpod asdad sadhianoihsd hos oshdojsd oisdio</p>
                           <div class="panel">
                             <a href="">Read More</a>
@@ -146,7 +154,78 @@
         
       </section>
 
-     
+      <footer class="text-center one-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="color1">About</h3>
+              <p>jdusids usdjkz sduib jsdios oihdios ishdnishd osihdo sodhihi</p>
+            </div>
+            
+            <div class="col-md-3 text-center">
+              <h3 class="color1">Services</h3>
+              
+           <h6 class="color1">
+              <a href="">Creative Designs</a>
+            </h6>
+            <h6 class="color">
+              <a href="">Web Designing</a>
+            </h6>
+            <h6 class="color">
+                <a href="">Web Designing</a>
+              </h6>
+              <h6 class="color">
+                  <a href="">Web Designing</a>
+                </h6>
+                <h6 class="color">
+                    <a href="">Web Designing</a>
+                  </h6>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <h3 class="color1">Technologies</h3>
+              <br>
+              <h6 class="color">
+                <a href="">Angular Js</a>
+              </h6>
+              <h6 class="color">
+                  <a href="">Angular Js</a>
+                </h6>
+                <h6 class="color">
+                    <a href="">Angular Js</a>
+                  </h6>
+                  <h6 class="color">
+                      <a href="">Angular Js</a>
+                    </h6>
+                    </div>
+
+                    <div class="col-md-3">
+                      <h3 class="color1">Contact Us</h3>
+                      <br>
+                      <h6 class="color">
+                        <i style="color:black; "></i>Ngara, Nairobi
+                      </h6>
+                      <h6 class="color">
+                        <i>
+                        </i>brendangaturu@gmail.com
+                      </h6>
+                      <h6 class="color">
+                        <i>
+
+                        </i>
+                      </h6>
+                      <div class="social">
+                        <a href="" target="_blank"></a>
+                      <a href="" nktarget="_blank"></a>
+                      </div>
+                    </div>
+
+          </div>
+        
+      </footer>
+  
+
+
        
         
         <!-- jQuery, Popper.js, Bootsrap.js-->
