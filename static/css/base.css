@@ -46,22 +46,43 @@ header, main, section, nav {
     display: block;
 }
 
+.dropdown-menu:hover .dropdown-item {
+    display: block;
+}
+
 .section-padding {
     padding: 0px 0px;
     margin-top: 10px;
 }
 
 .bg-gray {
-    background: #fff;
+    background: white
 }
 
 h6 {
     text-align: center;
-    color: red;
+    color: black;
 }
 
+img.bitch {
+    margin: auto;
+    display: block;
+}
+/* To style the cards more button external css */
+ 
+div.panel {
+    text-align: center;
+    
+}
 footer {
     padding-top: 40px;
     color:black;
+    box-sizing: border-box;
+    
+}
+
+a.footer-links {
+    text-decoration: none;
+    color: black;
 }
 
