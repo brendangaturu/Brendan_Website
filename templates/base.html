@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Brian Gaturu kamau">
+        <meta name="description" content="BreGat">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!--Google fonts--> 
+            <link href="https://fonts.googleapis.com/css?family=Trochut&display=swap" rel="stylesheet">
+            <!-- External stylesheet-->
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        <!--Google icons-->
+        
+
+        <title>BreGat</title>
+
+    </head>
+    <body>
+
+<header>
+  <!--Navigation-->
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="{% url 'home' %}">Bre<small>Gat</small></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Web Design</a>
+                      <a class="dropdown-item" href="#">Apps Development</a>
+                      
+                      <a class="dropdown-item" href="#">Desktop Apps</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#gat" tabindex="-1" aria-disabled="true">Contacts</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+      </header>
+      <!--End Navigation-->
+
+      </body>
+      
+
+ {% block content%}
+
+ {% endblock content%}
+ <!--Footer section-->
+ <footer class="text-center one-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="color1">About</h3>
+              <p>Bre<small>Gat</small> is a privately owned freelance company, our aim is to serve our clients with the latest technology to make your business successful</p>
+            </div>
+            
+            <div class="col-md-3 text-center">
+              <h3 class="color1">Services</h3>
+              <br>  
+           <h6 class="color">
+              <a class="footer-links" href="">Creative Designs</a>
+            </h6>
+            <h6 class="color">
+              <a class="footer-links" href="">Web Designing</a>
+            </h6>
+            <h6 class="color">
+                <a class="footer-links" href="">Web Development</a>
+              </h6>
+              <h6 class="color">
+                  <a class="footer-links" href="">Mobile Applications</a>
+                </h6>
+                <h6 class="color">
+                    <a class="footer-links" href="">Desktop Applications</a>
+                  </h6>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <h3 class="color1">Technologies</h3>
+              <br>
+              <h6 class="color">
+                <a class="footer-links" href="">Angular Js</a>
+              </h6>
+              <h6 class="color">
+                <a class="footer-links" href="">Node Js</a>
+              </h6>
+              <h6 class="color">
+                  <a class="footer-links" href="">Django</a>
+                </h6>
+                <h6 class="color">
+                    <a class="footer-links" href="">Android</a>
+                  </h6>
+                  <h6 class="color">
+                      <a class="footer-links" href="">Flutter</a>
+                    </h6>
+                    </div>
+
+                    <div class="col-md-3" id="gat">
+                      <h3 class="color1">Contact Us</h3>
+                      <br>
+                      <h6 class="color">
+                          <img src="https://img.icons8.com/ios-glyphs/30/000000/zip-code.png">Ngara, Nairobi Kenya
+                      </h6>
+                      <h6 class="color">
+                          <img src="https://img.icons8.com/material/24/000000/find-email.png">brendangaturu@gmail.com
+                      </h6>
+                      <h6 class="color">
+                          <img src="https://img.icons8.com/android/24/000000/google-mobile.png"> +254797481128
+                      </h6>
+                      <div class="social-icons">
+                      <div class="social">
+                          <img src="https://img.icons8.com/material-two-tone/24/000000/facebook-f--v2.png">
+                          <img src="https://img.icons8.com/android/24/000000/twitter.png">
+                          <img src="https://img.icons8.com/material/24/000000/reddit.png">
+                          <img src="https://img.icons8.com/android/24/000000/instagram.png">
+                      </div>
+                    </div>
+               </div>
+        </div>
+          <!-- Copyright-->
+          <div class="footer-copyright text-center py-3 bg-secondary" style="width: 100%;">© 2019 Copyright:
+              <a class="footer-links" href=""> Bregat.com</a>
+          </div> 
+          <!--Copyright-->
+        </div>
+      </footer>
+      <!--End Footer section-->
+  
+        <!-- jQuery, Popper.js, Bootsrap.js-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+ </html>
+

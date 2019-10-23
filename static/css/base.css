@@ -1,3 +1,4 @@
+/* General styling */
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -6,35 +7,9 @@
     scroll-behavior: smooth;
 }
 
+/* Navbar and Header styling */
 .navbar {
     position: sticky;
-}
-
-/* Extra small devices(phones) */
-@media only screen and (max-width: 600px){
-div.col-lg-4 {
-    width: 100%;
-}
-}
-
-/* Small devices (portrait tablets and large phones */
-@media only screen and (min-width:600px){
-
-}
-
-/* Medium devices (Landscape tablets) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (Laptops and Desktops) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (Large laptops and Desktops */
-@media only screen and (min-width: 1200px) {
-
 }
 
 header {
@@ -55,8 +30,20 @@ header, main, section, nav {
     margin-top: 10px;
 }
 
+.section-head {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 .bg-gray {
-    background: white
+    background: grey;
+}
+
+hr{
+    width: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+    border-top: 1.5px solid black;
 }
 
 h6 {
@@ -64,21 +51,37 @@ h6 {
     color: black;
 }
 
+/* Cards styling */
+/*To style the Read More button in the cards */
+.card {
+    height: 500px;
+    
+}
+
+.serv-item {
+    padding-top: 50px;
+}
+
 img.bitch {
     margin: auto;
     display: block;
-}
-/* To style the cards more button external css */
- 
-div.panel {
-    text-align: center;
     
 }
+/* services card heading */
+.cardserv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.panel {
+    text-align: center;  
+}
+
+ /* Footer styling */
 footer {
     padding-top: 40px;
     color:black;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 a.footer-links {
