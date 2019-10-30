@@ -5,6 +5,7 @@ from django.views.generic import TemplateView
 from django.urls import reverse_lazy
 from .forms import ContactForm
 
+
 class HomePageView(TemplateView):
     template_name = 'home.html'
 
@@ -13,7 +14,9 @@ class ServicesPageView(TemplateView):
     template_name = 'services.html'
 
 # working on the contact view
-def emailView(request):
+
+
+def emailview(request):
     if request.method == 'GET':
         form = ContactForm()
     else:
