@@ -35,9 +35,6 @@ header, main, section, nav {
     padding-bottom: 20px;
 }
 
-.bg-gray {
-    background: grey;
-}
 
 hr{
     width: 40%;
@@ -51,31 +48,10 @@ h6 {
     color: black;
 }
 
+
 /* Cards styling */
-/*To style the Read More button in the cards */
-.card {
-    height: 500px;
-    
-}
 
-.serv-item {
-    padding-top: 50px;
-}
 
-img.bitch {
-    margin: auto;
-    display: block;
-    
-}
-/* services card heading */
-.cardserv {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-div.panel {
-    text-align: center;  
-}
 
  /* Footer styling */
 footer {
@@ -96,6 +72,6 @@ box-sizing: border-box;
 width: 500px;
 height: 500px;
 color: black;
-align: center;
+allign: center;
 }
 
