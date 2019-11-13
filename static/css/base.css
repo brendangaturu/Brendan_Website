@@ -80,9 +80,9 @@ margin: 0 auto;
 }
 
 .card_image {
-margin: auto;
-padding: 0.5rem;
-left: 50%;
+    margin: auto;
+    padding: 0.5rem;
+    left: 50%;
 }
 
 @media (min-width: 40rem) {
@@ -98,8 +98,9 @@ left: 50%;
 }
 
 .card {
+    height: 400px;
     background-color: white;
-    border-radius: 0.25rem;
+    border-radius: 0.6rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
@@ -107,6 +108,9 @@ left: 50%;
 }
 
 .card_content {
+    height: 70%;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
     padding: 1rem;
     background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
 }
@@ -130,6 +134,27 @@ left: 50%;
     font-weight: 400;
 }
 
+.panel {
+    font-size: 14px;
+    background: transparent;
+    text-decoration: none;
+    padding: 0.8rem;
+    margin-top: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.a_panel {
+    color: white;
+}
+
+a.a_panel:hover {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
 
 
  /* Footer styling */
