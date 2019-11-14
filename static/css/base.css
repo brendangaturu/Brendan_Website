@@ -132,6 +132,7 @@ margin: 0 auto;
     line-height: 1.5;
     margin-bottom: 1.25rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .panel {
@@ -139,13 +140,14 @@ margin: 0 auto;
     background: transparent;
     text-decoration: none;
     padding: 0.8rem;
-    margin-top: 12px;
+    margin-top: 100px;
     text-align: center;
     text-transform: uppercase;
 }
 
 .a_panel {
     color: white;
+
 }
 
 a.a_panel:hover {
@@ -158,25 +160,20 @@ a.a_panel:hover {
 
 
  /* Footer styling */
-
-footer {
-    padding-top: 40px;
-    color:black;
-    box-sizing: border-box; 
-}
-
-a.footer-links {
-    text-decoration: none;
-    color: black;
+div.copyright {
+    background-color: #EF8D9C;
+    padding-top: 1rem;
+    border-top-right-radius: 0.85rem;
+    border-top-left-radius: 0.85rem;
 }
 
 .email {
-left:50%;
-display: block;
-box-sizing: border-box;
-width: 500px;
-height: 500px;
-color: black;
-allign: center;
+    left:50%;
+    display: block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    color: black;
+    allign: center;
 }
 
