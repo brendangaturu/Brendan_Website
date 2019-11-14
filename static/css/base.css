@@ -54,8 +54,8 @@ h6 {
 
 /* Cards styling */
 .main {
-max-width: 1200px;
-margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .services_heading {
@@ -161,10 +161,19 @@ a.a_panel:hover {
 
  /* Footer styling */
 div.copyright {
-    background-color: #EF8D9C;
+    background-color: grey;
     padding-top: 1rem;
     border-top-right-radius: 0.85rem;
     border-top-left-radius: 0.85rem;
+}
+
+p > a {
+    color: black;
+}
+
+p > a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .email {
