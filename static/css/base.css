@@ -140,7 +140,7 @@ h6 {
     background: transparent;
     text-decoration: none;
     padding: 0.8rem;
-    margin-top: 100px;
+    margin-bottom: 0px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -179,11 +179,18 @@ p > a:hover {
 .btn-circle{
     height: 30px;
     width: 30px;
-    background-color: black;
-    border-radius: 15px;
+    background-color: #EF8D9C;
+    border-radius: 50%;
+    padding: 8px;
     text-align: center;
-    /*margin: */
+    cursor: pointer;
 }
+
+
+
+.btn-circle:hover{
+    opacity: 0.8;
+    }
 
 
 /* Contact page */
@@ -194,6 +201,6 @@ p > a:hover {
     width: 500px;
     height: 500px;
     color: black;
-    allign: center;
+    text-align: center;
 }
 
