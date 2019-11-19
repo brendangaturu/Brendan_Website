@@ -10,37 +10,27 @@
 }
 
 /* Navbar and Header styling */
-.navbar {
-    position: sticky;
+
+ul.navbar-nav{
+    margin-left: 50px;
 }
+
+li.nav-item{
+    margin: 0px 20px;
+    }
+
+
 
 header {
     height: 800px;
     background-color: grey;
 }
 
-header, main, section, nav {
-    display: block;
-}
-
-.dropdown-menu:hover .dropdown-item {
-    display: block;
-}
-
-.section-padding {
-    padding: 0px 0px;
-    margin-top: 10px;
-}
-
-.section-head {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
+/* Cards styling and services section*/
 
 hr{
     width: 40%;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     border-top: 1.5px solid black;
 }
@@ -50,9 +40,6 @@ h6 {
     color: black;
 }
 
-
-
-/* Cards styling */
 .main {
     max-width: 1200px;
     margin: 0 auto;
@@ -135,12 +122,11 @@ h6 {
     text-align: center;
 }
 
-.panel {
+div.panel {
     font-size: 14px;
     background: transparent;
     text-decoration: none;
     padding: 0.8rem;
-    margin-bottom: 0px;
     text-align: center;
     text-transform: uppercase;
 }

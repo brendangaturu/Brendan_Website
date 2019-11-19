@@ -34,15 +34,12 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Services
                     </a>
@@ -53,7 +50,7 @@
                       <a class="dropdown-item" href="{% url 'services' %}">Desktop Apps</a>
                     </div>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link " href="{% url 'contact' %}" tabindex="-1" >Contacts</a>
                   </li>
                 </ul>
