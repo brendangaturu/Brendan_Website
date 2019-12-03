@@ -24,6 +24,19 @@ li.nav-item{
     font-size: 1rem;
     }
 
+.search-btn {
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.search-btn : hover {
+    border: red;
+    background-color: black;
+ }
+
+input.active-black : focus{
+    border: 1px solid gray;
+ }
+
 /* Header */
 
 .slider {
@@ -235,12 +248,13 @@ p > a:hover {
 
 /* Contact page */
 .email {
-    left:50%;
+    float: center;
     display: block;
     box-sizing: border-box;
     width: 500px;
     height: 500px;
     color: black;
     text-align: center;
+    margin: 30px auto;
 }
 
