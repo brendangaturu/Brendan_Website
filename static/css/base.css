@@ -20,9 +20,13 @@ ul.navbar-nav{
 }
 
 li.nav-item{
-    margin: 0px 20px;
+    margin: 0px 40px;
     font-size: 1rem;
     }
+
+a .nav-link: hover {
+    color: red;
+}
 
 .search-btn {
     border: 1px solid grey;
@@ -51,7 +55,7 @@ figure {
     animation: 15s slider infinite;
 }
 
-figure > img {
+figure > a {
     height: 800px;
     width: 20%;
     float: left;
@@ -85,6 +89,7 @@ figure > img {
     100% {
         left: -400%;
     }
+
 
 }
 
@@ -263,54 +268,30 @@ p > a:hover {
 }
 
 @media screen and (max-width: 600px) {
-
     .email {
-        display: block;
-        width:90%;
-        height: auto;
-     }
+        width: 100%;
 
-    h6 {
-        text-align: center;
     }
 
-    form {
-        height: auto;
-    }
+}
 
-    figure {
-        height: 25%;
+/* Responsiveness */
+@media only screen and ( min-width: 600px) {
+    .text-uppercase {
+        text-align: left;
     }
 }
 
 
-@media only screen and ( min-width: 600px) {
-
-    }
-
 @media only screen and (min-width: 768px;) {
-       h6 .text-uppercase {
-        text-align: left;
-
-    }
-
 
 }
 
 @media only screen and (min-width: 992px;) {
-    h6 .text-uppercase {
-        text-align: left;
-
-    }
 
 }
 
 @media only screen and(min-width:1200px;) {
-
-    h6 .text-uppercase {
-        text-align: left;
-
-    }
 
 }
 
