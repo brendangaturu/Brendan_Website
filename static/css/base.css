@@ -14,14 +14,24 @@
 nav.navbar{
     position: fixed;
     width: 100%;
+    height: 3.751rem ;
+
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    margin-left: 30px;
+    font-spacing: 3px;
 }
 ul.navbar-nav{
-    margin-left: 50px;
+    margin: auto;
+
 }
 
 li.nav-item{
     margin: 0px 40px;
     font-size: 1rem;
+    font-weight: normal;
     }
 
 a .nav-link: hover {
@@ -218,11 +228,11 @@ a.a_panel:hover {
 
 
  /* Footer styling */
-div.copyright {
-    background-color: grey;
-    padding-top: 1rem;
-    border-top-right-radius: 0.85rem;
-    border-top-left-radius: 0.85rem;
+.footer-hr {
+    border-color: red;
+    height: 0.5px;
+    width: 25%;
+    margin-left: 0px;
 }
 
 p > a {
@@ -244,11 +254,16 @@ p > a:hover {
     cursor: pointer;
 }
 
-
-
 .btn-circle:hover{
     opacity: 0.8;
     }
+
+div.copyright {
+    background-color: grey;
+    padding-top: 1rem;
+    border-top-right-radius: 0.85rem;
+    border-top-left-radius: 0.85rem;
+}
 
 
 /* Contact page */
