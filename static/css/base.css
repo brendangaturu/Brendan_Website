@@ -263,28 +263,54 @@ p > a:hover {
 }
 
 @media screen and (max-width: 600px) {
+
     .email {
-        width:100%;
-        }
+        display: block;
+        width:90%;
+        height: auto;
+     }
+
     h6 {
         text-align: center;
     }
 
+    form {
+        height: auto;
+    }
+
+    figure {
+        height: 25%;
+    }
 }
+
 
 @media only screen and ( min-width: 600px) {
 
     }
 
 @media only screen and (min-width: 768px;) {
+       h6 .text-uppercase {
+        text-align: left;
+
+    }
+
 
 }
 
 @media only screen and (min-width: 992px;) {
+    h6 .text-uppercase {
+        text-align: left;
+
+    }
 
 }
 
 @media only screen and(min-width:1200px;) {
+
+    h6 .text-uppercase {
+        text-align: left;
+
+    }
 
 }
 
