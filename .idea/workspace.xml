@@ -5,9 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/brendan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/brendan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brendan/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/brendan/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/brendan_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/brendan_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/appdevelopment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/developing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/projectmanagement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/websitedevelopment.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1706" />
-    <option name="y" value="100" />
-    <option name="width" value="1035" />
-    <option name="height" value="886" />
-  </component>
   <component name="ProjectId" id="1VeFePaJEj3ONOfZsTkRseoXgrm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/lib/python3.6" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ServiceViewManager">
@@ -86,13 +85,17 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2018" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577605780517" />
-    <state x="2064" y="176" key="SettingsEditor" timestamp="1577606611643">
+    <state x="2429" y="441" width="430" height="481" key="FileChooserDialogImpl" timestamp="1577615342684">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2064" y="176" key="SettingsEditor/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577606611643" />
-    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1577605773202">
+    <state x="2429" y="441" width="430" height="481" key="FileChooserDialogImpl/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577615342684" />
+    <state x="2064" y="176" key="SettingsEditor" timestamp="1577615350387">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577605773202" />
+    <state x="2064" y="176" key="SettingsEditor/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577615350387" />
+    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1577611353256">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577611353256" />
   </component>
 </project>

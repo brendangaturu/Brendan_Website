@@ -1,9 +1,9 @@
 from django.core.mail import send_mail, BadHeaderError
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
-from django.urls import reverse_lazy
 from .forms import ContactForm
+from django.template.loader import get_template
 
 
 class HomePageView(TemplateView):
@@ -13,7 +13,7 @@ class HomePageView(TemplateView):
 class ServicesPageView(TemplateView):
     template_name = 'services.html'
 
-# working on the contact view
+# Fuction based view
 
 
 def emailview(request):
@@ -26,8 +26,29 @@ def emailview(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             try:
-                send_mail(name, message, email, ['admin@example.com'])
+                send_mail(name, message, email, ['brendangaturudevelopers@gmail.com'], fail_silently=False)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('home')
     return render(request, "contact.html", {'form': form})
+
+# def emailview(request):
+#     if request.method == "POST":
+#         # form = ContactForm(request.POST)
+#         name = request.POST.get("name")
+#         email = request.POST.get("email")
+#         message = request.POST.get("message")
+#         subject = "Contact Form Received"
+#         from_email = email
+#         to_email = "brendangaturudevelopers@gmail.com"
+#
+#         context = {
+#             'user': name,
+#             'email': email,
+#             'message': message
+#         }
+#         contact_message = get_template('contact_message.txt').render(context)
+#
+#         send_mail(subject, contact_message, from_email, to_email)
+#         return redirect("home")
+#     return render(request, "contact.html", {})
