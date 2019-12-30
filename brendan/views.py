@@ -26,29 +26,8 @@ def emailview(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             try:
-                send_mail(name, message, email, ['brendangaturudevelopers@gmail.com'], fail_silently=False)
+                send_mail(name, message, email, ['brendangaturu@gmail.com'], fail_silently=False)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('home')
     return render(request, "contact.html", {'form': form})
-
-# def emailview(request):
-#     if request.method == "POST":
-#         # form = ContactForm(request.POST)
-#         name = request.POST.get("name")
-#         email = request.POST.get("email")
-#         message = request.POST.get("message")
-#         subject = "Contact Form Received"
-#         from_email = email
-#         to_email = "brendangaturudevelopers@gmail.com"
-#
-#         context = {
-#             'user': name,
-#             'email': email,
-#             'message': message
-#         }
-#         contact_message = get_template('contact_message.txt').render(context)
-#
-#         send_mail(subject, contact_message, from_email, to_email)
-#         return redirect("home")
-#     return render(request, "contact.html", {})

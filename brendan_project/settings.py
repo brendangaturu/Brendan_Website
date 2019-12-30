@@ -134,15 +134,19 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Email service
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# TODO: solve the mail service integration
 
-EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-EMAIL_HOST_USER = 'apikey'
-
-EMAIL_HOST_PASSWORD = 'SG.8ZJToEkSSp6vrT1HF8JFiA.ZpH_uhU94UPaAy5L'
-
-EMAIL_PORT = 465
-
-EAMIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+#
+# EMAIL_PORT = 587
+#
+# EMAIL_HOST_USER = 'brendangaturudevelopers@gmail.com'
+#
+# EMAIL_HOST_PASSWORD = 'Brendan1Gaturu1'
+#
+# EMAIL_USE_TLS = True
+#
+# EMAIL_USE_SSL = False
 
