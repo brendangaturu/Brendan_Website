@@ -37,22 +37,20 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{% url 'home' %}" style="font-weight: bold">Home <span class="sr-only">(current)</span></a>
                   </li>
-                  <li class="nav-item dropdown active">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <li class="nav-item dropdown active" data-hover="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: bold">
                       Services
                     </a>
-
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="{% url 'services' %}">Web Design</a>
                       <a class="dropdown-item" href="{% url 'services' %}">Apps Development</a>
-                      
                       <a class="dropdown-item" href="{% url 'services' %}">Desktop Apps</a>
                     </div>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link " href="{% url 'contact' %}" tabindex="-1" >Contacts</a>
+                    <a class="nav-link " href="{% url 'contact' %}" tabindex="-1" style="font-weight: bold">Contacts</a>
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -193,12 +191,12 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class=" btn-circle btn-floating btn-sm">
+                                <a class="btn-circle btn-floating btn-sm">
                                     <i class="fab fa-google-plus-g"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class=" btn-circle btn-floating btn-sm">
+                                <a class="btn-circle btn-floating btn-sm">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </li>

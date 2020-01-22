@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0af9e772-4352-4a50-960e-0d051d180683" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brendan_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/brendan_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +88,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2064" y="176" key="SettingsEditor/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577615350387" />
-    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1577989483224">
+    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1579711269013">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog/0.0.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577989483224" />
+    <state x="2243" y="369" key="com.intellij.ide.util.TipDialog/0.0.1600.900/1600.0.1920.1080@1600.0.1920.1080" timestamp="1579711269013" />
     <state x="2243" y="369" key="com.intellij.ide.util.TipDialog/0.32.1600.868/1600.0.1920.1080@1600.0.1920.1080" timestamp="1577611353256" />
   </component>
 </project>

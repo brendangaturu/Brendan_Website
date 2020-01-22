@@ -51,7 +51,21 @@ input.active-black : focus{
     border: 1px solid gray;
  }
 
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    height: 150px;
 
+}
+
+.dropdown-item {
+    display: block;
+    margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 /* Header */
 
 .slider {
@@ -158,13 +172,13 @@ h6 {
 @media (min-width: 40rem) {
 .cards_item{
     width: 50%;
-}
+    }
 }
 
 @media (min-width: 56rem) {
 .cards_item {
     width: 33.3333%;
-}
+    }
 }
 
 .card {
