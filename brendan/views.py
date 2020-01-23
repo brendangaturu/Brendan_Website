@@ -10,6 +10,18 @@ class HomePageView(TemplateView):
     template_name = 'home.html'
 
 
+class WebdesignPageView(TemplateView):
+    template_name = 'webdesign.html'
+
+
+class WebdevelopmentPageView(TemplateView):
+    template_name = 'webdevelopment.html'
+
+
+class MobileDevelopmentPageView(TemplateView):
+    template_name = 'webdevelopment.html'
+
+
 class ServicesPageView(TemplateView):
     template_name = 'services.html'
 

@@ -63,8 +63,13 @@ input.active-black : focus{
     margin-top: 10px;
 }
 
+/* on hover dropdown */
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0px;
 }
 /* Header */
 
@@ -259,6 +264,8 @@ p > a:hover {
     color: black;
 }
 
+
+
 .btn-circle{
     height: 25px;
     width: 25px;
@@ -304,6 +311,28 @@ div.copyright {
     }
 
 }
+
+/* webdevelopmentpage styles */
+
+div .serv {
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsiveness */
 @media only screen and ( min-width: 600px) {
