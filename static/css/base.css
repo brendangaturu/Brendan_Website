@@ -316,17 +316,19 @@ div.copyright {
 
 div .serv {
     border: 1px solid black;
+    
 }
 
+div .serv-detail {
+    border: none;
+
+}
+
+.serv-detail, .serv {
+    margin: 30px auto;
 
 
-
-
-
-
-
-
-
+}
 
 
 
