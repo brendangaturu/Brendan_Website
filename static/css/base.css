@@ -21,8 +21,9 @@ nav.navbar{
 .navbar-brand {
     font-size: xx-large;
     margin-left: 30px;
-    font-spacing: 3px;
+    letter-spacing: 3px;
 }
+
 ul.navbar-nav{
     margin: auto;
 
@@ -34,7 +35,7 @@ li.nav-item{
     font-weight: normal;
     }
 
-a .nav-link: hover {
+a .nav-link:hover {
     color: red;
 }
 
@@ -42,12 +43,12 @@ a .nav-link: hover {
     border: 1px solid grey;
     border-radius: 8px;
 }
-.search-btn : hover {
+.search-btn:hover {
     border: red;
-    background-color: black;
+    background-color: black; 
  }
 
-input.active-black : focus{
+input.active-black:focus{
     border: 1px solid gray;
  }
 
@@ -55,7 +56,6 @@ input.active-black : focus{
     position: absolute;
     display: none;
     height: 150px;
-
 }
 
 .dropdown-item {
@@ -344,15 +344,15 @@ div .serv-detail {
 }
 
 
-@media only screen and (min-width: 768px;) {
+@media only screen and (min-width: 768px) {
 
 }
 
-@media only screen and (min-width: 992px;) {
+@media only screen and (min-width: 992px) {
 
 }
 
-@media only screen and(min-width:1200px;) {
+@media only screen and(min-width:1200px) {
 
 }
 
