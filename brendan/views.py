@@ -25,6 +25,17 @@ class MobileDevelopmentPageView(TemplateView):
 class ServicesPageView(TemplateView):
     template_name = 'services.html'
 
+
+class DigitalmarketingPageView(TemplateView):
+    template_name = 'digitalmarketing.html'
+
+
+class ContentwritingPageView(TemplateView):
+    template_name = 'contentwriting.html'
+
+class CreativedesignPageView(TemplateView):
+    template_name = 'creativedesigns.html'
+
 # Fuction based view
 
 
