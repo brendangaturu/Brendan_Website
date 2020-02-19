@@ -1,1 +1,1 @@
-web: gunicorn brendan_project.wsgi --log-file -
+web: gunicorn brendan_project:brendan
