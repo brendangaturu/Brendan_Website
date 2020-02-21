@@ -9,6 +9,6 @@ urlpatterns = [
     path('mobiledevelopment/', MobileDevelopmentPageView.as_view(), name='mobiledevelopment'),
     path('creativedesign/', CreativedesignPageView.as_view(), name='creativedesigns'),
     path('digitalmarketing/',  DigitalmarketingPageView.as_view(), name='digitalmarketing'),
-    path('creativedesigns/', ContentwritingPageView.as_view(), name='contentwriting'),
+    path('contentwriting/', ContentwritingPageView.as_view(), name='contentwriting'),
     path('contact/', emailview, name='contact'),
 ]
