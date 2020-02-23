@@ -1,7 +1,6 @@
 from django.test import SimpleTestCase
 from django.urls import reverse
 
-
 class HomePageViewTest(SimpleTestCase):
 
     def test_home_page_view_status_code(self):
@@ -18,33 +17,4 @@ class HomePageViewTest(SimpleTestCase):
         self.assertTemplateUsed(resp, 'home.html')
 
 
-class ServicesPageViewTest(SimpleTestCase):
 
-    def test_services_page_view_status_code(self):
-        resp = self.client.get('/services/')
-        self.assertEqual(resp.status_code, 200)
-
-    def test_view_url_by_name(self):
-        resp = self.client.get(reverse('services'))
-        self.assertEqual(resp.status_code, 200)
-
-    def test_view_uses_correct_template(self):
-        resp = self.client.get(reverse('services'))
-        self.assertEqual(resp.status_code, 200)
-        self.assertTemplateUsed(resp, 'services.html')
-
-
-class ContactPageViewTest(SimpleTestCase):
-
-    def test_contact_page_view_status_code(self):
-        resp = self.client.get('/contact/')
-        self.assertEqual(resp.status_code, 200)
-
-    def test_view_url_by_name(self):
-        resp = self.client.get(reverse('contact'))
-        self.assertEqual(resp.status_code, 200)
-
-    def test_view_uses_correct_template(self):
-        resp = self.client.get(reverse('contact'))
-        self.assertEqual(resp.status_code, 200)
-        self.assertTemplateUsed(resp, 'contact.html')

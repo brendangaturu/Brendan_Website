@@ -15,15 +15,11 @@ class WebdesignPageView(TemplateView):
 
 
 class WebdevelopmentPageView(TemplateView):
-    template_name = 'webdevelopment.html'
+    template_name = 'webdesign.html'
 
 
 class MobileDevelopmentPageView(TemplateView):
     template_name = 'webdevelopment.html'
-
-
-class ServicesPageView(TemplateView):
-    template_name = 'services.html'
 
 
 class DigitalmarketingPageView(TemplateView):
