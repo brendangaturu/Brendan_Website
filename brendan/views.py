@@ -29,6 +29,7 @@ class DigitalmarketingPageView(TemplateView):
 class ContentwritingPageView(TemplateView):
     template_name = 'contentwriting.html'
 
+
 class CreativedesignPageView(TemplateView):
     template_name = 'creativedesigns.html'
 
