@@ -134,7 +134,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -143,15 +143,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# EMAIL_HOST = 'smtp.gmail.com'
-#
-# EMAIL_PORT = 587
-#
-# EMAIL_HOST_USER = 'brendangaturudevelopers@gmail.com'
-#
-# EMAIL_HOST_PASSWORD = 'Brendan1Gaturu1'
-#
-# EMAIL_USE_TLS = True
-#
-# EMAIL_USE_SSL = False
+
 
