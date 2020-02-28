@@ -19,7 +19,7 @@ class WebdevelopmentPageView(TemplateView):
 
 
 class MobileDevelopmentPageView(TemplateView):
-    template_name = 'webdevelopment.html'
+    template_name = 'mobiledevelopment.html'
 
 
 class DigitalmarketingPageView(TemplateView):
