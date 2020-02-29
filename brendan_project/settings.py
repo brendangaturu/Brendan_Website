@@ -139,7 +139,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Email service
-# TODO: solve the mail service integration
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
