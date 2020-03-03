@@ -166,7 +166,7 @@ h6 {
 }
 
 .card_content {
-    height: 70%;
+    height: 65%;
     border-top-left-radius: 0.6rem;
     border-top-right-radius: 0.6rem;
     padding: 1rem;
@@ -297,8 +297,6 @@ div .serv-detail {
 
 .serv-detail, .serv {
     margin: 30px auto;
-
-
 }
 
 
