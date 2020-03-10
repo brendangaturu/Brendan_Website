@@ -48,7 +48,7 @@ a .nav-link:hover {
  }
 
 input.active-black:focus{
-    border: 1px solid gray;
+    border: 1px solid ghostwhite;
  }
 
 .dropdown-menu {
