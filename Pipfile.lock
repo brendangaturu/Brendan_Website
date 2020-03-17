@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d9e916af60613c79c110a5c3bc38152bf572e650e5cf60dac58486d2e058d12a"
+            "sha256": "75fc6ce7d2f6208a58849c71845d3676c91826a49ee60f317b6244e00e03e4b0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -85,6 +85,14 @@
             ],
             "index": "pypi",
             "version": "==0.3.1"
+        },
+        "django-material": {
+            "hashes": [
+                "sha256:502dc88c2f61f190fdc401666e83b47da00cbda98477af6ed8b7d43944ce6407",
+                "sha256:f8758afe1beabc16a3c54f5437c7fea15946b7d068eedd89c97d57a363793950"
+            ],
+            "index": "pypi",
+            "version": "==1.6.3"
         },
         "django-sendgrid": {
             "hashes": [
@@ -175,6 +183,13 @@
             ],
             "index": "pypi",
             "version": "==2.22.0"
+        },
+        "six": {
+            "hashes": [
+                "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a",
+                "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"
+            ],
+            "version": "==1.14.0"
         },
         "sqlparse": {
             "hashes": [

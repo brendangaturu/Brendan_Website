@@ -260,16 +260,18 @@ div.copyright {
 /* Contact page */
 
 .email {
-    float: center;
-    display: block;
-    box-sizing: border-box;
+    background-color: #fff;
+    color: black;
     width: 600px;
     height: 600px;
-    color: black;
-    text-align: center;
     margin: 30px auto;
-    border: 1px solid grey;
     padding: 20px;
+    float: center;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid grey;
     border-radius: 8px;
 }
 
