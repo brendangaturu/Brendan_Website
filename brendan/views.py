@@ -33,7 +33,7 @@ class ContentwritingPageView(TemplateView):
 class CreativedesignPageView(TemplateView):
     template_name = 'creativedesigns.html'
 
-# Fuction based view
+
 
 
 def emailview(request):

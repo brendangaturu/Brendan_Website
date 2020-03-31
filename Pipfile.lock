@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "75fc6ce7d2f6208a58849c71845d3676c91826a49ee60f317b6244e00e03e4b0"
+            "sha256": "b5f74fb14ae11ac78dd73279db2e43f2f2cbd03c914d6bb709e6b8d062f300f2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -79,28 +79,6 @@
             "index": "pypi",
             "version": "==0.3.1"
         },
-        "django-mailjet": {
-            "hashes": [
-                "sha256:c5974447b2fe4aeb298a4774887b6850374b3291fe941e7d23ff09c2edee8ef5"
-            ],
-            "index": "pypi",
-            "version": "==0.3.1"
-        },
-        "django-material": {
-            "hashes": [
-                "sha256:502dc88c2f61f190fdc401666e83b47da00cbda98477af6ed8b7d43944ce6407",
-                "sha256:f8758afe1beabc16a3c54f5437c7fea15946b7d068eedd89c97d57a363793950"
-            ],
-            "index": "pypi",
-            "version": "==1.6.3"
-        },
-        "django-sendgrid": {
-            "hashes": [
-                "sha256:9c0484747a797c4e033639807b91267776cf9cea9cfc71648db33cc3fd0e67f0"
-            ],
-            "index": "pypi",
-            "version": "==1.0.1"
-        },
         "django-smtp-ssl": {
             "hashes": [
                 "sha256:282863d5905e03686b6555ac788aa732842695d6f9cf1dcfa66d898abb7565d0"
@@ -123,14 +101,6 @@
             ],
             "index": "pypi",
             "version": "==2.8"
-        },
-        "mailjet-rest": {
-            "hashes": [
-                "sha256:f14424df10c30083491dcaa5902ff9b159af82bca261af5e7b2213afdcf7a11c",
-                "sha256:f95a44d5cef2ce003776c4f847f885790da513ec0fe78c9c4ff6f6bf15325b71"
-            ],
-            "index": "pypi",
-            "version": "==1.3.3"
         },
         "psycopg2": {
             "hashes": [
@@ -183,13 +153,6 @@
             ],
             "index": "pypi",
             "version": "==2.22.0"
-        },
-        "six": {
-            "hashes": [
-                "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a",
-                "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"
-            ],
-            "version": "==1.14.0"
         },
         "sqlparse": {
             "hashes": [
