@@ -132,7 +132,6 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Email service
