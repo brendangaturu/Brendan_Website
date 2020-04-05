@@ -33,7 +33,7 @@ class ContentwritingPageView(TemplateView):
 class CreativedesignPageView(TemplateView):
     template_name = 'creativedesigns.html'
 
-
+# Add a class based view 
 def emailview(request):
     if request.method == 'GET':
         form = ContactForm()
