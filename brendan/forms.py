@@ -2,6 +2,7 @@ from django import forms
 from crispy_forms.helper import FormHelper
 
 #TODO: makeover the contact form
+
 class ContactForm(forms.Form):
     """Email contact form"""
     helper = FormHelper()
